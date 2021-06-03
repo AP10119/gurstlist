@@ -2,14 +2,12 @@
     <head>]
         <title>Guest List</title>
         <script src="main.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     </head>
     <body>
         <h1>Guest List</h1>
         <input type="text" placeholder="Enter Name" id="name_of_the_guest1">
-        <input type="text" placeholder="Enter Name" id="name_of_the_guest2">
-        <input type="text" placeholder="Enter Name" id="name_of_the_guest3">
-
+        <br>
 
 <button onclick="submit()" id="submit_button">
 	Submit
@@ -23,5 +21,17 @@
 <button onclick="sorting()" id="sort_button">
 	Sort
 </button>
+<br>
+<div id="sorted">
+</div>
+<input type="text" placeholder="search Name" id="search_the_guest1">
+        <br>
+
+<button onclick="search()" id="search_button">
+	Search
+</button>
+<br>
+<div id="found">
+</div>
     </body>
 </html>
